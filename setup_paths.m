@@ -1,0 +1,6 @@
+% SETUP_PATHS  Add this project's folders to the MATLAB path.
+% Run once per MATLAB session before running anything in scripts/.
+% (Creates no variables, so it leaves the caller's workspace untouched.)
+addpath(fullfile(fileparts(mfilename('fullpath')), 'functions'), ...
+        fullfile(fileparts(mfilename('fullpath')), 'external', 'plot_ci'), ...
+        fullfile(fileparts(mfilename('fullpath')), 'scripts'));

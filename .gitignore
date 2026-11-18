@@ -1,0 +1,11 @@
+# Simulation results are large (about 260 MB); they are attached to the GitHub Release
+# "v1.0-ime2022" as results.zip. Unzip into results/ to redraw the figures without rerunning.
+results/*.mat
+
+# MATLAB and OS clutter
+*.asv
+*.m~
+slprj/
+desktop.ini
+.DS_Store
+Thumbs.db
