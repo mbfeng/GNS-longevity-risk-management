@@ -121,7 +121,14 @@ remain in the Dropbox version history of `results/original_runs/` until it expir
 - The fitted kappa parameters match the paper: drift -0.4971, variance 0.7467 (volatility 0.8641),
   kappa_0 -14.2328.
 
+## License
+MIT (see `LICENSE`), for the code written for this project. `external/plot_ci/` keeps its own BSD
+license, and the HMD data in `data/` are subject to the Human Mortality Database user agreement.
+
 ## Change log
+2026-11-19
+- Added the MIT license.
+
 2026-11-18
 - Restructured: scripts became functions (no `clearvars`), one entry point `reproduce_paper.m`, shared
   code moved into `functions/`, consistent snake_case names, unused options and outputs removed.
