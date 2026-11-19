@@ -1,8 +1,11 @@
 # Code for "Green nested simulation via likelihood ratio: Applications to longevity risk management"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24374119.svg)](https://doi.org/10.5281/zenodo.24374119)
+
 B.M. Feng, J.S.-H. Li and K.Q. Zhou, Insurance: Mathematics and Economics 106 (2022) 285-301,
 https://doi.org/10.1016/j.insmatheco.2022.07.004. If you use this code, please cite the paper
-(see `CITATION.cff`).
+(see `CITATION.cff`). The code itself is archived on Zenodo, https://doi.org/10.5281/zenodo.24374119
+(all versions; v1.0.1 is https://doi.org/10.5281/zenodo.24374120).
 MATLAB code that reproduces every figure and table of the paper, within Monte Carlo error.
 
 ## Quick start

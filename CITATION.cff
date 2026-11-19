@@ -13,6 +13,7 @@ authors:
 version: 1.0.1
 date-released: "2026-11-19"
 license: MIT
+doi: "10.5281/zenodo.24374119"
 repository-code: "https://github.com/mbfeng/GNS-longevity-risk-management"
 keywords:
   - nested simulation
