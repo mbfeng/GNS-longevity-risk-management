@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-This license covers the code written for this project. The following are not
-covered and keep their own terms:
-- external/plot_ci/: third-party code under its own BSD license (see the
-  license file in that folder).
-- data/hmd_ew_female_1962_2011.mat: data from the Human Mortality Database
-  (www.mortality.org), subject to the HMD user agreement.
