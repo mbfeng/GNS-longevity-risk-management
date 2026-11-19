@@ -1,6 +1,8 @@
 # Code for "Green nested simulation via likelihood ratio: Applications to longevity risk management"
 
-B.M. Feng, J.S.-H. Li and K.Q. Zhou, Insurance: Mathematics and Economics 106 (2022) 285-301.
+B.M. Feng, J.S.-H. Li and K.Q. Zhou, Insurance: Mathematics and Economics 106 (2022) 285-301,
+https://doi.org/10.1016/j.insmatheco.2022.07.004. If you use this code, please cite the paper
+(see `CITATION.cff`).
 MATLAB code that reproduces every figure and table of the paper, within Monte Carlo error.
 
 ## Quick start
@@ -99,8 +101,7 @@ standard errors. Further checks:
   discrepancy affecting reported numbers.
 
 `verify_against_paper` repeats this comparison for any set of results (it is the last step of
-`reproduce_paper`). The original 2020-2022 results files were deleted after this verification; they
-remain in the Dropbox version history of `results/original_runs/` until it expires.
+`reproduce_paper`). The original 2020-2022 results files were retired after this verification.
 
 ## Notes
 - Section 4 of the paper says the "true" values use 10^7 inner paths; the published results used 10^6.
@@ -123,11 +124,13 @@ remain in the Dropbox version history of `results/original_runs/` until it expir
 
 ## License
 MIT (see `LICENSE`), for the code written for this project. `external/plot_ci/` keeps its own BSD
-license, and the HMD data in `data/` are subject to the Human Mortality Database user agreement.
+license. The data in `data/` come from the Human Mortality Database (University of California,
+Berkeley, USA, and Max Planck Institute for Demographic Research, Germany; www.mortality.org)
+and are subject to its terms of use.
 
 ## Change log
 2026-11-19
-- Added the MIT license.
+- Added the MIT license and `CITATION.cff`; repository made public.
 
 2026-11-18
 - Restructured: scripts became functions (no `clearvars`), one entry point `reproduce_paper.m`, shared

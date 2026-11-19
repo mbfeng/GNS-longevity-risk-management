@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below (preferred-citation)."
+title: "GNS-longevity-risk-management: code for Green nested simulation via likelihood ratio: Applications to longevity risk management"
+type: software
+authors:
+  - given-names: Ben Mingbin
+    family-names: Feng
+    orcid: "https://orcid.org/0000-0002-9748-6435"
+  - given-names: Johnny Siu-Hang
+    family-names: Li
+  - given-names: Kenneth Q.
+    family-names: Zhou
+version: 1.0.1
+date-released: "2026-11-19"
+license: MIT
+repository-code: "https://github.com/mbfeng/GNS-longevity-risk-management"
+keywords:
+  - nested simulation
+  - likelihood ratio
+  - longevity risk
+  - Lee-Carter
+  - MATLAB
+preferred-citation:
+  type: article
+  title: "Green nested simulation via likelihood ratio: Applications to longevity risk management"
+  authors:
+    - given-names: Ben Mingbin
+      family-names: Feng
+      orcid: "https://orcid.org/0000-0002-9748-6435"
+    - given-names: Johnny Siu-Hang
+      family-names: Li
+    - given-names: Kenneth Q.
+      family-names: Zhou
+  journal: "Insurance: Mathematics and Economics"
+  volume: 106
+  start: 285
+  end: 301
+  year: 2022
+  doi: "10.1016/j.insmatheco.2022.07.004"
